@@ -1,0 +1,7 @@
+.navbar-right .dropdown .dropdown-menu{
+    font-size: 12px;
+    min-width: 100px;
+}
+.navbar-right .dropdown .dropdown-menu li a{
+    padding: 8px 10px;
+}

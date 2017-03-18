@@ -1,0 +1,92 @@
+body{
+    background-color: #f2f4f6;
+}
+nav{
+    padding:5px 0px;
+}
+.navbar-header .navbar-brand{
+    padding:2px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #cf0039;
+}
+.navbar-default .header-menu {
+    margin-left: 5%;
+}
+#header-logo{
+    background-color: #cf0039;
+    height:100%;
+    width: auto;
+}
+.dropdown:hover{
+    background-color: #e6e6e6;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu li:hover{
+    background-color: #f4f4f4;
+    transition: background-color 0.08s ease-in;
+}
+.dropdown-menu{
+    display: none;
+    padding:0px;
+}
+.dropdown-menu .divider{
+    margin: 0px;
+}
+.dropdown-menu li a{
+    padding:12px 20px
+}
+#rearch-box{
+    padding: 0px;
+    display: inline-block;
+    border-bottom: #cbcbcb 1px solid;
+    margin-right: 30px;
+    margin-top: 11px;
+    margin-bottom: 8px;
+    height: 34px;
+    font-size: 0.8rem;
+    background-color: #f7f7f7;
+}
+#rearch-box input{
+    margin:0px;
+    height: 32px;
+}
+#rearch-box input,  #rearch-box button{
+    border: 0px solid ;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: #f7f7f7;
+}
+#rearch-box input:focus{
+    box-shadow: none;
+    outline: 0;
+    border: 0px;
+}
+#rearch-box button:hover{
+    color: #ce0039;
+}
+footer{
+    padding-top:6rem;
+    padding-bottom: 1rem;
+    background-color: #fdfdfe;
+    text-align: center;
+    margin-top: 5rem !important;
+    margin-bottom: 0px !important;
+}
+footer img{
+    width:32px;
+    height:32px;
+    margin-right:2rem;
+}
+footer .container .row p{
+    margin:3rem 0rem 2rem 0rem;
+}
+footer p{
+    color: #777;
+}
+footer a{
+    font-size:16px;
+    color: #777;
+}

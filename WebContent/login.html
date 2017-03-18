@@ -1,0 +1,50 @@
+﻿<!DOCTYPE  html>
+<html  lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>ML登陆</title>
+    <link rel="shortcut icon" href="img/logo/logo_red.png">
+    <link rel="stylesheet" href="css/public/myLayout.css">
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+
+<body style=" background:url(img/register/bg.jpg) repeat">
+<header>
+ 
+</header>
+
+    <div id="logIn_box" >
+        <h1> LOG IN </h1>
+        <form action="login_check.jsp" method="post" onSubmit="return isLegal(this);">
+        <div id="box">
+            <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-user" ></span>
+                <input type="text" class="form-control" placeholder="请输入用户名" name="userName">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-lock" ></span>
+                <input type="password" class="form-control" placeholder="请输入密码" name="passWord">
+            </div>
+        </div>
+        <div id="logIn_bottom">
+            <input type="submit" value="登录" />
+        </div>
+
+
+        <div id="logIn_box_bottom">
+
+            <div id="join">
+                <p>还没有注册？&nbsp;&nbsp;&nbsp;<a href="register.jsp">注册</a></p>
+            </div>
+        </div>
+        </form>
+    </div>
+
+</body>
